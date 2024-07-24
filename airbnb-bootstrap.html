@@ -14,17 +14,18 @@
   <body>
 
     <!-- Code here -->
-    <div class="border-bottom p-2">
-      <div class="container d-flex justify-content-between align-items-center">
-        <img src="images/logo.png" alt="le wagon logo" class="rounded-circle" width="50px">
+  
+    <div class="border-bottom py-2 mb-3">
+      <div class="d-flex justify-content-between align-items-center container">
+        <img src="images/logo.png" alt="Le wagon logo" class="rounded-circle" width="50px">
         <a href="#" class="btn btn-primary">Login</a>
       </div>
     </div>
 
-    <div class="container mt-3">
-      
+    <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-8">
+        <div class="col-12 col-md-8">
+          <!-- Bootstrap carousel --> 
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -46,34 +47,37 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+          <!-- Bootstrap carousel end --> 
 
-          <h1>Lovely flat in Meguro, Tokyo.</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta blanditiis atque officiis excepturi sequi labore sint quas a dicta rerum tenetur maxime, optio dolor. Nesciunt distinctio provident minima incidunt aut!</p>
-      </div>
 
-      <div class="col-12 col-lg-4">
-          <div class="border rounded p-4">
+
+          <h1>Book this lovely flat in Tokyo</h1>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, nesciunt. Blanditiis ab autem atque iure dicta ad obcaecati, est doloremque, enim vitae veritatis! Iure cum, distinctio commodi inventore qui a.
+          Quae quia ad asperiores repudiandae culpa, accusantium debitis quidem veniam assumenda modi unde et cumque deserunt quo fugit ratione sapiente? Eaque corporis iure doloribus reprehenderit facilis praesentium repellat earum labore.</p>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="border p-3 my-3">
             <h2>Book this flat</h2>
-              <form>
+            <form>
               <div class="mb-3">
                 <label class="form-label">Message:</label>
-                <input type="text" class="form-control" placeholder="Write something">
+                <input type="text" placeholder="Write something" class="form-control">
               </div>
               <div class="mb-3">
                 <label class="form-label">Arrival:</label>
-                <input type="text" class="form-control" placeholder="01/03/2024">
+                <input type="date" class="form-control">
               </div>
               <div class="mb-3">
                 <label class="form-label">Departure:</label>
-                <input type="text" class="form-control" placeholder="01/03/2024">
+                <input type="date" class="form-control">
               </div>
-
-              <input type="submit" class="btn btn-primary w-100" value="Book Now">
+              <input type="submit" class="btn btn-primary" value="Book Now">
             </form>
           </div>
         </div>
       </div>
-
+      
     </div>
     <!-- Bootstrap JavaScript library -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
